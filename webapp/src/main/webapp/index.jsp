@@ -58,7 +58,7 @@
 		<div class="box-main">
 			<div class="secondHalf">
 				<h1 class="text-big" id="program">
-					C Programming
+					C Language form Sandeep
 				</h1>
 				<p class="text-small">
 					C is a procedural programming language.
