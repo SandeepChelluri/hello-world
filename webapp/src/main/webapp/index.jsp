@@ -1,118 +1,46 @@
-<!DOCTYPE html>
+<header>
+  <h1>Cat Fancy Event</h1>
+  <p>The fanciest cat event.</p>
+</header>
+<br>
+<nav id="topnav">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Locations</a></li>
+    <li><a href="#">RSVP</a></li>
+  </ul>
+</nav>
 
-<html>
-
-<head>
-	<title>
-		Simple web Development Template
-	</title>
-</head>
-
-<body>
-	<nav class="navbar background">
-		<ul class="nav-list">
-			<div class="logo">
-				<img src="logo.png">
-			</div>
-			<li><a href="#web">Web Technology</a></li>
-			<li><a href="#program">C Programming</a></li>
-			<li><a href="#course">Courses</a></li>
-		</ul>
-
-		<div class="rightNav">
-			<input type="text" name="search" id="search">
-			<button class="btn btn-sm">Search</button>
-		</div>
-	</nav>
-
-	<section class="firstsection">
-		<div class="box-main">
-			<div class="firstHalf">
-				<h1 class="text-big" id="web">
-					Web Technology
-				</h1>
-				
-				<p class="text-small">
-					HTML stands for HyperText Markup
-					Language. It is used to design
-					web pages using a markup language.
-					HTML is the combination of Hypertext
-					and Markup language. Hypertext
-					defines the link between the web
-					pages. A markup language is used
-					to define the text document within
-					tag which defines the structure of
-					web pages. HTML is a markup language
-					that is used by the browser to
-					manipulate text, images, and other
-					content to display it in the required
-					format.
-				</p>
-
-
-			</div>
-		</div>
-	</section>
-
-	<section class="secondsection">
-		<div class="box-main">
-			<div class="secondHalf">
-				<h1 class="text-big" id="program">
-					C Programming
-				</h1>
-				<p class="text-small">
-					C is a procedural programming language.
-					It was initially developed by Dennis
-					Ritchie as a system programming
-					language to write operating system.
-					The main features of C language include
-					low-level access to memory, simple set
-					of keywords, and clean style, these
-					features make C language suitable for
-					system programming like operating system
-					or compiler development.
-				</p>
-
-
-			</div>
-		</div>
-	</section>
-
-	<section class="section">
-		<div class="paras">
-			<h1 class="sectionTag text-big">Java</h1>
-
-			<p class="sectionSubTag text-small">
-				Java has been one of the most
-				popular programming language
-				for many years. Java is Object
-				Oriented. However it is not
-				considered as pure object oriented
-				as it provides support for primitive
-				data types (like int, char, etc) The
-				Java codes are first compiled into byte
-				code (machine independent code). Then
-				the byte code is run on Java Virtual
-				Machine (JVM) regardless of the
-				underlying architecture.
-			</p>
-
-
-		</div>
-
-		<div class="thumbnail">
-			<img src="img.png" alt="laptop image">
-		</div>
-	</section>
-
-	<footer class="background">
-		<p class="text-footer">
-			Copyright ©-All rights are reserved
-		</p>
-
-
-	</footer>
-</body>
-
-</html>
-
+<div id="content">
+  <h1>Cat Fancy Event 2014</h1>
+  <p>The 115th annual Cat Fancy Event is being held in New York City on December 21st. This is the fanciest cat event of the year, starring over 300 different cats. This event was made to show America how great cats really are. There will be treats at the walk in, and for the cat owners there will be a buffet in the lounge. We thank you for coming to our event site, and hope to see you on December 21st. Thank you.</p>
+  <br>
+  <img src="https://2.bp.blogspot.com/-e1gP9Sj4HmM/UYBIKLVcP_I/AAAAAAAAA0g/9Hy86hAvnUs/s320/funny-cat-download-hd-backgrounds+%25281%2529.jpg" alt="Cat being fancy" />
+  <h2>Featured Cats</h2>
+  <ul>
+    <li>George C.</li>
+    <li>Sam F.</li>
+    <li>Doug T.</li>
+    <li>Sally Z.</li>
+  </ul>
+  <br>
+  <div id="pic1"><img src="http://media.thedenverchannel.com/photo/2012/09/01/Generic-Cat-19700452_69436_ver1.0_320_240.jpg" alt="George" /></div>
+  <div id="pic2"><img src="https://3.bp.blogspot.com/-WHW5J1uTTCY/UERgSSUImII/AAAAAAAAAMk/JrIBdXHajj0/s320/Cat+Pictures+8.jpg" alt="Sam" /></div>
+  <div id="pic3"><img src="http://www.weetzies.com/wp-content/uploads/2010/10/birman-cat.jpg" alt="Doug" /></div>
+  <div id="pic4"><img src="http://kittentoys.org/wp-content/uploads/toys-for-cats.jpg" alt="Sally" /></div>
+  <br>
+  <p>These cats will be the showrunners this year. George has a long history in cat events, and is looking forward to this year's Cat Fancy Event. Sam is a world-class runner, and will be showing his new techniques. Doug likes to lay around, and will practice his abilities. Sally was invited because her mom made a fit about not coming.</p>
+</div>
+<br>
+<footer>
+<nav class="footernav">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Locations</a></li>
+    <li><a href="#">RSVP</a></li>
+  </ul>
+</nav>
+  <p>&copy; - Copyright 2014</p>
+</footer>
